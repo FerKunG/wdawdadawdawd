@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #cfcccc;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.menu a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: #000;
+}
+
+header {
+    background-image: url(https://scontent.fbkk10-1.fna.fbcdn.net/v/t31.18172-8/17218290_1830307337186086_766727587273548547_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=13d280&_nc_ohc=lM3kZ1Z5MfYQ7kNvgGSmk7P&_nc_ht=scontent.fbkk10-1.fna&_nc_gid=AMCUWrBHdsCnnT_QngKK-7Q&oh=00_AYCvgGlQ0JXmpPTG6vyHPRuA2qYx-C0hybRfLRNpw7aEsQ&oe=67087F6F);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+body {
+    background-color: #eee;
+}
+
+.contener {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto; /*Make the grid smaller than the container*/
+    gap: 20px;
+    padding: 50px;
+  }
+
+.content {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 550px;
+    height: auto;
+}
+
+
+.content a {
+    border:  1px solid black;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+    color: #000;
+}
+.content a:hover {
+    padding: 0px 20px 0px 20px;
+    transition: 0.5s;
+    background-color: black;
+    color: #fff;
+}
+
+
+.content img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.nav2 {
+    background-color: #cfcccc;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+ background-color: #353333; 
+ padding: 20PX;
+ text-align: center;
+ color: #fff;
+}
